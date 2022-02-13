@@ -1,0 +1,104 @@
+.navegador {
+  list-style-type: none;
+  margin: 10;
+  padding: 10;
+  display: flex;
+  justify-content: space-around;
+  font-family: "Lato", sans-serif;
+  text-transform: uppercase;
+  font-weight: 900;
+  
+}
+
+.button-home {
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #4CAF50;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+  margin:auto
+}
+
+.button-home:hover {background-color: #3e8e41}
+
+.button-home:active {
+  background-color: #3e8e41;
+  box-shadow: 0 2px #666;
+  transform: translateY(4px);
+}
+
+.button-Restaurantes {
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: red;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+}
+  
+.button-Restaurantes:hover {background-color: rgb(177, 39, 39)}
+  
+.button-Restaurantes:active {
+    background-color: rgb(177, 39, 39);
+    box-shadow: 0 2px #666;
+    transform: translateY(4px);
+}
+
+.button-Platos {
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: blue;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+}
+  
+.button-Platos:hover {background-color: rgb(38, 38, 175)}
+  
+.button-Platos:active {
+    background-color: rgb(38, 38, 175);
+    box-shadow: 0 2px #666;
+    transform: translateY(4px);
+}
+
+.button-Coments {
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: orange;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+}
+  
+.button-Coments:hover {background-color: rgb(180, 128, 30)}
+  
+.button-Coments:active {
+    background-color: rgb(180, 128, 30);
+    box-shadow: 0 2px #666;
+    transform: translateY(4px);
+}
