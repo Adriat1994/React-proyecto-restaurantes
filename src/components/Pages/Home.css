@@ -1,0 +1,11 @@
+
+
+.catering_empresas{
+    display: flex;
+}
+
+.container-img {
+    height: 400px;
+    display: flex;
+    justify-content: center;
+}

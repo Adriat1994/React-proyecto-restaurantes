@@ -9,9 +9,8 @@ export default function NavBar () {
         <div class="navegador">
             <nav>
                 <Link to="/" class="button-home">Home</Link>
-                <Link to="restaurantes" class="button-Restaurantes">Restaurantes</Link>
-                <Link to="platos" class="button-Platos">Platos</Link>  
-                <Link to="coments" class="button-Coments">Coments</Link>           
+                <Link to="restaurantes" class="button-Restaurantes">Restaurantes</Link>           
+                <Link to="formulario" class="button-Formulario">Formulario</Link>              
             </nav>
         </div>
     )

@@ -1,0 +1,27 @@
+.all_restaurants {
+    display: flex;
+    padding: 20px;
+   
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+
+.restaurants_box {
+    margin: 30px;
+    width: 20%;
+    text-align: center;
+    min-width: 200px;
+    border:black;
+    background-color: white;
+    border-style: solid;
+    font-family: 'Lato', sans-serif;
+    padding: 60px;
+   
+
+}

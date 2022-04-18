@@ -10,8 +10,9 @@ import {
 } from "react-router-dom";
 
 import Home from './components/Pages/Home';
-import Restaurantes from './components/Pages/Restaurantes';
-import Platos from './components/Pages/Platos';
+import Comida from './components/Pages/Comida';
+
+import Formulario from './components/Pages/Formulario';
 
 
 
@@ -21,8 +22,8 @@ function App() {
       <NavBar />
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="restaurantes" element={<Restaurantes />} />       
-        <Route path="platos" element={<Platos />} />  
+        <Route path="restaurantes" element={<Comida />} /> 
+        <Route path="formulario" element={<Formulario />} /> 
       </Routes>
     </Router>
    
