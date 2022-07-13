@@ -9,7 +9,7 @@ Primeramente el proyecto fue creado para funcionar en local, pero luego fue actu
 El Frontend está desarrollado con React. Cuenta con navegación entre rutas, un navbar funcional, un formulario para hacer POST a la API y agregar nuevos datos y las paginas de restaurantes y platos, que hacen una petición GET a la API para luego mostrar los datos mediante el hook useEffect. Se utiliza un hook useState para mostrar de forma alternativa platos o restaurantes, en función de lo que se quiera.
 
   ## URL para ver el resultado
-Para ver el proyecto en directo puedes verlo aquí (https://wiki-minecraft-ats.netlify.app/)
+Para ver el proyecto en directo puedes verlo aquí (https://proyecto-react-restaurantes-ats.netlify.app/)
 
 
   ## Autor ✒️
